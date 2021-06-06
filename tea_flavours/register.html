@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+
+<script>
+</script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 col-md-6 col-md-offset-3">
+            <div class="formContainer">
+                <form name="validate" method="post" action="index.html" onsubmit="return validateform()">
+                    <div class="form-group row">
+                      <input type="text" class="form-control" id="Input1" name="fname" placeholder="First Name">
+                    </div>
+                    <div class="form-group row">
+                      <input type="text" class="form-control" id="Input2" name="mname" placeholder="Middle Name">
+                    </div>
+                    <div class="form-group row">
+                      <input type="text" class="form-control" id="Input3" name="lname" placeholder="Last Name">
+                    </div>
+                    <div class="form-group row">
+                      <input type="email" class="form-control" id="Input4" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group row">
+                      <input type="tel" class="form-control" id="Input5" name="mobile" placeholder="Mobile Number">
+                    </div>
+                    <div class="form-group row">
+                      <input type="password" class="form-control" id="Input6" name="password" placeholder="Password">
+                    </div>
+                    <div class="form-group row">
+                      <input type="password" class="form-control" id="Input7" name="confirm" placeholder="Confirm Password">
+                    </div>
+                    <!--<a href="index.html" class="btn btn-group-lg btn-primary" role="button">Register</a>-->
+                    <input type="submit" class="btn btn-group-lg btn-primary" value="Register" onclick="register()">
+                </form>
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
